@@ -1,5 +1,7 @@
-/*----------------------*/
+
+```shell
 CENTOS IP: 192.168.1.13
+
 #INSTALL
 	yum install vsftpd ftp -y
 #Configure vsftpd
@@ -31,3 +33,4 @@ CENTOS IP: 192.168.1.13
 #Update the SELinux boolean values for FTP service
 	setsebool -P tftp_home_dir on
 #TEST
+```
